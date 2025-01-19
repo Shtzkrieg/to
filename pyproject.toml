@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "terryology"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Python package implementing Terry's unique mathematical system"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -26,6 +26,8 @@ classifiers = [
 keywords = ["mathematics", "terryology", "education"]
 
 [project.urls]
+Homepage = "https://github.com/Shtzkrieg/to"
+Repository = "https://github.com/Shtzkrieg/to.git"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/terryology"]
